@@ -17,6 +17,11 @@ function userOption(u){
         document.querySelectorAll("img")[i].style.border="5px solid black";
         document.querySelectorAll("img")[i].setAttribute("onclick","");
     }
+
+    document.querySelector(".head3").style.cursor="pointer";
+    document.querySelector(".head3").addEventListener("click",function(){
+        document.location.reload();
+    });
     
     document.querySelector(".u"+u).style.opacity="100%";
     document.querySelector(".u"+u).style.transform="scale(1.1)";
