@@ -26,6 +26,23 @@
     letter-spacing: 3px;
 }
 
+.head3{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 5px;
+}
+.btn{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid;
+}
+
 hr{
     outline: none;
     border: none;

@@ -22,6 +22,7 @@ function userOption(u){
     document.querySelector(".head3").addEventListener("click",function(){
         document.location.reload();
     });
+    document.querySelector(".head3").classList.add("btn");
     
     document.querySelector(".u"+u).style.opacity="100%";
     document.querySelector(".u"+u).style.transform="scale(1.1)";
