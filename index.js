@@ -59,6 +59,13 @@ function changeHtml(res,res3){
         document.querySelector(".container").classList.add("lose"); 
     else if(res==="It's a TIE")
         document.querySelector(".container").classList.add("tie"); 
-    
+}
 
+if("serviceWorker" in navigator){
+    navigator.serviceWorker.register("sw.js").then(reg=>{
+        console.log(reg);
+    }).catch(err=>{
+        console.log("SW Failed");
+        console.log(err);
+    });
 }
